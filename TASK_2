@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main() {
+    int x, y;
+    std::cout << "Enter the value of x: ";
+    std::cin >> x;
+    std::cout << "Enter the value of y: ";
+    std::cin >> y;
+    int result = 1;
+    for (int i = 0; i < y; i++) {  // обчислення х у степені у
+        result *= x;
+    }
+    std::cout << x << " to the power of " << y << " equals " << result << std::endl;
+    return 0;
+}
