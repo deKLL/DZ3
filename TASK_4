@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    int product = 1;
+    cout << "Enter a value for a (1 <= a <= 20): ";
+    cin >> a;
+    for (int i = a; i <= 20; i++) {
+        product *= i;
+    }
+    cout << "The product of all integers from " << a << " to 20 is: " << product << endl;
+    return 0;
+}
